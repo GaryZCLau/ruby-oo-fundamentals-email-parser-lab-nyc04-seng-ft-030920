@@ -11,7 +11,7 @@ class EmailAddressParser
   attr_accessor :emails
   
   def parse
-    @emails
+    @emails.split
     # split, strip
 
   end
