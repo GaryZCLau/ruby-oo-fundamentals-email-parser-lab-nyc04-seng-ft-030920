@@ -12,7 +12,7 @@ class EmailAddressParser
   
   def parse
     @emails
-    # .lstrip.split(",")
+    # split, strip
 
   end
 end
